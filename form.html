@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yeni Kullanıcı Kayıt Sayfası</title>
 </head>
+
 <body>
-    
+    <form action="islem.php" method="get">
+        <h1> Yeni Kullanıcı Kayıt Sayfası</h1>
+        <p>Yeni kullanıcı kaydınızı tamamlamak için lütfen bilgileri eksiksiz ve doğru giriniz...</p>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    Fotoğrafınız
+                </td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Ad Soyad</td>
+                <td><input type="text" required name="adSoyad" placeholder="Adınız ve Soyadınız"></td>
+                <td>Yaş</td>
+                <td><input type="number" placeholder="Yaşınız" min="0"></td>
+            </tr>
+            <tr>
+                <td>Okul</td>
+                <td><input type="text" name="okul" placeholder="Okulunuz..."></td>
+                <td>Doğum Yeri</td>
+                <td><input type="text" name="dogumYeri" placeholder="Doğum Yeri"></td>
+
+            </tr>
+            <tr>
+                <td>Adresiniz</td>
+
+            </tr>
+            <tr>
+                <td><textarea name="adres" id="" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Kullanıcıyı kaydet"></td>
+                <td><input type="reset" value="Formu temizle"></td>
+
+            </tr>
+
+
+
+        </table>
+
+
+    </form>
 </body>
+
 </html>
