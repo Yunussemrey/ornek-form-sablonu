@@ -1,0 +1,3 @@
+Herkese selam arkadaşlar.
+html de css yardımıyla basit yeni kullanıcı kaydı tanımlamasını sağlayan form oluşturdum. Farklı tasarımlara veya fonksiyon eklemelerine açığım. 
+Teşekkürler...
